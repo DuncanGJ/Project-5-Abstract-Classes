@@ -1,3 +1,10 @@
+//CS 145 Assignment #5 abstract class
+//Duncan Jackson
+//TextTransform abstract class implements basic setter and getter methods, and transform() abstract method
+//ReverseTransform & CaesarTransform extend the abstract class and implement transform based on each on each class's transform type
+//ReverseTransform reverses the string
+//CaesarTransform implements a Caesar cypher 
+
 public class TextTransformtest{
     public void main(String[] args) {
         ReverseTransform transform = new ReverseTransform();
